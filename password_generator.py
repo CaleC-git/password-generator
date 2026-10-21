@@ -1,6 +1,12 @@
 import random
 import string
 
+banner_message = '* AWESOME Password Genertator PROGRAM *'
+stars = '*' * len(banner_message)
+print(stars)
+print(banner_message)
+print(stars)
+
 letters = string.ascii_letters #abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 print(letters)
